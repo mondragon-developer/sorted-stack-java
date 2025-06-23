@@ -3,7 +3,7 @@
 ## Maintenance Notice
 **This is Version 2.0, maintained from the original SortedIntegerList (Project #4)**
 
-This version demonstrates software maintenance practices by adapting the original LinkedList-based implementation to use a Stack data structure while preserving all user-facing functionality.
+This version demonstrates software maintenance practices by adapting the original sorted-linkedlist-java (https://github.com/mondragon-developer/sorted-linkedlist-java/tree/main) implementation to use a Stack data structure while preserving all user-facing functionality.
 
 ## What Changed in v2.0
 - **Data Structure**: LinkedList → Stack
@@ -110,7 +110,7 @@ SortedStackProject/
 ├── src/
 │   └── SortedIntegerStack.java     # Maintained from SortedIntegerList.java
 ├── docs/                           # Generated JavaDoc files
-├── README.md                       # This file (updated)
+├── README.md                       # This file
 ├── MAINTENANCE_LOG.md              # Details of maintenance changes
 └── SortedIntegerStack.class        # Compiled class file
 ```
@@ -124,7 +124,7 @@ SortedStackProject/
 
 ## Performance Characteristics
 
-| Operation | Time Complexity | Space Complexity | Notes |
+| Operation | Time Complexity| Space Complexity | Notes |
 |-----------|----------------|------------------|-------|
 | Insert    | O(n)           | O(n)             | Uses temporary stack |
 | Search    | O(n)           | O(1)             | Linear search in Stack |
@@ -137,6 +137,3 @@ Jose Mondragon
 ## Version History
 - 1.0 - Original implementation using LinkedList (Project #4)
 - 2.0 - Maintained version using Stack (Project #5)
-
-## License
-This project is created for educational purposes.
